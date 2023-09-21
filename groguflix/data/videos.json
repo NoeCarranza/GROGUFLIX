@@ -1,0 +1,35 @@
+{
+    "videos":[
+        {
+            "id": 1,
+            "nombre": "xx",
+            "año": "1900",
+            "categoria":"1",
+            "descripcion": "afñdgfñokñh",
+            "duracion": "25565"
+        },
+        {
+            "id": 2,
+            "nombre": "xx",
+            "año": "1900",
+            "categoria":"2",
+            "descripcion": "afñdgfñokñh",
+            "capitulo": [{
+                "temporada": 1,
+                "capitulo": 1,
+                "titulo": "sghg",
+                "descripcion":"sdghg",
+                "duracion": "243"
+            }]
+        },
+        {
+            "id": 3,
+            "nombre": "xx",
+            "año": "1900",
+            "categoria":"3",
+            "descripcion": "afñdgfñokñh",
+            "duracion": "25565"
+        }
+    ]
+}
+

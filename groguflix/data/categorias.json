@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "categoria": "peliculas"
+        },
+        {
+            "id": 2,
+            "categoria": "series"
+        },
+        {
+            "id": 3,
+            "categoria": "cortos"
+        }
+    ]
+}
