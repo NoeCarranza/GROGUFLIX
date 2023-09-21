@@ -32,8 +32,9 @@ export const MasVistos = () => {
                     fontFamily: 'Oswald',
                     fontWeight: '700',
                     textDecoration: 'none',
-                }}> <img  src= "./otros.jfif" alt="mandalorian"/>
-                Peli 1
+                }}> <img  src= "/mas-vistos/mandalorian.jpg" alt="mandalorian"/>
+                
+                Mandalorian
                 </Link>
                 </div>
                 <Link

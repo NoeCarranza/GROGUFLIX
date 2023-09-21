@@ -1,35 +1,175 @@
 {
-    "videos":[
+    "videos": [
         {
             "id": 1,
-            "nombre": "xx",
-            "año": "1900",
-            "categoria":"1",
-            "descripcion": "afñdgfñokñh",
-            "duracion": "25565"
+            "nombre": "Star Wars: Episode IV - A New Hope",
+            "año": "1977",
+            "categoria": "1",
+            "descripcion": "La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logran escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa.",
+            "duracion": "125 minutos",
+            "URL": "https://www.youtube.com/watch?v=dx4VOQwldFA&ab_channel=StarWarsLatinoam%C3%A9rica"
         },
         {
             "id": 2,
-            "nombre": "xx",
-            "año": "1900",
-            "categoria":"2",
-            "descripcion": "afñdgfñokñh",
-            "capitulo": [{
-                "temporada": 1,
-                "capitulo": 1,
-                "titulo": "sghg",
-                "descripcion":"sdghg",
-                "duracion": "243"
-            }]
+            "nombre": "Star Wars: Episode V - The Empire Strikes Back",
+            "año": "1980",
+            "categoria": "1",
+            "descripcion": "n este episodio se desarrolla la historia de amor entre Han y Leia, mientras que Luke aprende más sobre los caminos de la Fuerza de la mano del maestro Yoda. Con Han y Leia capturados por el Imperio, Luke luchará contra Darth Vader en una confrontación sin igual, pero Vader esconde una terrible revelación.",
+            "duracion": "127 minutos",
+            "URL": "https://www.youtube.com/watch?v=j4gZKGGt9vc&ab_channel=VideosGeek2000"
         },
         {
             "id": 3,
-            "nombre": "xx",
-            "año": "1900",
-            "categoria":"3",
-            "descripcion": "afñdgfñokñh",
-            "duracion": "25565"
+            "nombre": "Star Wars: Episode VI - Return of the Jedi",
+            "año": "1983",
+            "categoria": "1",
+            "descripcion": "Seis meses después de que Han Solo fuera capturado y congelado en carbonita en la Ciudad de las Nubes, el Imperio Galáctico está construyendo una nueva Estrella de la Muerte. Mientras tanto, el joven Luke lucha para alcanzar la maestría jedi.",
+            "duracion": "135 minutos",
+            "URL": "https://www.youtube.com/watch?v=tklajZ6A1O8&ab_channel=CineXcusas"
+        },
+        {
+            "id": 4,
+            "nombre": "Star Wars: Episode I - The Phantom Menace",
+            "año": "1999",
+            "categoria": "1",
+            "descripcion": "Obi-Wan Kenobi es un joven aprendiz caballero Jedi bajo la tutela de Qui-Gon Jinn; Anakin Skywalker, quien después será padre de Luke Skywalker y se convertirá en Darth Vader, solamente es un niño de 9 años. Cuando la Federación de Comercio corta todas las rutas al planeta Naboo, Qui-Gon y Obi-Wan son asignados para solucionar el problema.",
+            "duracion": "136 minutos",
+            "URL": "https://www.youtube.com/watch?v=rfA-Abh23KM&ab_channel=swrperu"
+        },
+        {
+            "id": 5,
+            "nombre": "Star Wars: Episode II - Attack of the Clones",
+            "año": "2002",
+            "categoria": "1",
+            "descripcion": "En el Senado Galáctico reina la inquietud. Varios miles de sistemas solares han declarado su intención de abandonar la República. Este movimiento separatista, liderado por el misterioso conde Dooku, ha provocado que al limitado número de caballeros Jedi les resulte difícil mantener la paz y el orden en la galaxia. La senadora Amidala, antigua Reina de Naboo, regresa al Senado Galáctico para dar su voto en la crítica cuestión de crear un ejército de la República que ayude a los desbordados Jedi.",
+            "duracion": "142 minutos",
+            "URL": "https://www.youtube.com/watch?v=mMLTnE5Sv6U&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 6,
+            "nombre": "Star Wars: Episode III - Revenge of the Sith",
+            "año": "2005",
+            "categoria": "1",
+            "descripcion": "¡Guerra! La República se desmorona bajo los ataques del despiadado Lord Sith, el conde Dooku. Hay héroes en ambos bandos, pero el mal está por doquier. En una contundente jugada, el diabólico líder droide, el general Grievous, ha irrumpido en la capital de la República y ha secuestrado al Canciller Palpatine, líder del senado Galáctico. Mientras el ejército droide separatista trata de huir con su valioso rehén, dos caballeros Jedi inician una misión desesperada para liberar al Canciller cautivo.",
+            "duracion": "139 minutos",
+            "URL": "https://www.youtube.com/watch?v=kuaMCweiZi0&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 7,
+            "nombre": "Star Wars: Episode VII - The Force Awakens",
+            "año": "2015",
+            "categoria": "1",
+            "descripcion": "Treinta años después de la victoria de la Alianza Rebelde sobre la segunda Estrella de la Muerte, la galaxia tiene que enfrentarse a una nueva amenaza: el malvado Kylo Ren y la Primera Orden. Cuando el desertor Finn llega a un planeta desierto conoce a Rey, cuyo androide contiene un mapa secreto. Juntos, la joven pareja unirá fuerzas con Han Solo para asegurarse de que la resistencia encuentra a Luke Skywalker, el último de los caballeros Jedi.",
+            "duracion": "135 minutos",
+            "URL": "https://www.youtube.com/watch?v=5eKLdSDGh9k&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 8,
+            "nombre": "Star Wars: Episode VIII - The Last Jedi",
+            "año": "2017",
+            "categoria": "1",
+            "descripcion": "La Primera Orden ha acorralado a los últimos miembros de la resistencia. Su última esperanza es que Finn se introduzca en la nave de Snoke y desactive el radar que les permite localizarlos. Mientras él trata, en compañía de una soldado de la Resistencia, de cumplir esta misión imposible, Rey se encuentra lejos, intentando convencer a Luke Skywalker de que la entrene y la convierta en la última jedi.",
+            "duracion": "152 minutos",
+            "URL": "https://www.youtube.com/watch?v=3_YJYdJA6Yc&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 9,
+            "nombre": "Star Wars: Episode IX - The Rise of Skywalker",
+            "año": "2019",
+            "categoria": "1",
+            "descripcion": "La Resistencia sobreviviente se enfrenta a la Primera Orden, y Rey, Finn, Poe y el resto de los héroes encararán nuevos retos y una batalla final con la sabiduría de las generaciones anteriores.",
+            "duracion": "142 minutos",
+            "URL": "https://www.youtube.com/watch?v=AXRAdmJvzcs&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 10,
+            "nombre": "Rogue One: A Star Wars Story",
+            "año": "2016",
+            "categoria": "1",
+            "descripcion": "En una época de conflicto, un grupo de héroes atípicos se une en una misión suicida para robar los planos de La Estrella de la Muerte, el arma definitiva de destrucción del Imperio. Este hecho clave en la cronología de Star Wars reúne a gente corriente que decide hacer cosas extraordinarias y convertirse así en parte de algo mucho más importante que ellos mismos.",
+            "duracion": "133 minutos",
+            "URL": "https://www.youtube.com/watch?v=Iw6epWo-OYA&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 11,
+            "nombre": "Solo: A Star Wars Story",
+            "año": "2018",
+            "categoria": "1",
+            "descripcion": "El joven Han Solo huye del planeta Corellia años antes de conocer a Luke Skywalker y la Princesa Leia, pero tiene que dejar atrás a su amada Qi'ra. Tras apuntarse a la Academia Imperial para ser piloto, Han conoce a un wookie llamado Chewbacca y más tarde al famoso jugador Lando Calrissian, dueño del Halcón milenario. En una misión desesperada, Han se unirá a Tobias Beckett para obtener un valioso cargamento de coaxium.",
+            "duracion": "135 minutos",
+            "URL": "https://www.youtube.com/watch?v=kIBMJ6YXksE&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 12,
+            "nombre": "Ahsoka",
+            "año": "2023",
+            "categoria": "2",
+            "descripcion": "Ambientada después de la caída del Imperio, Ahsoka sigue a la antigua caballero Jedi Ahsoka Tano mientras investiga una amenaza emergente que se cierne sobre la galaxia.",
+            "duracion": "8 episodios - 1 temporada",
+            "URL": "https://www.youtube.com/watch?v=cA_bqAvW0YQ&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 13,
+            "nombre": "Obi-Wan Kenobi",
+            "año": "2022",
+            "categoria": "2",
+            "descripcion": "Obi-Wan es un caballero jedi de la antigua República Galáctica y, como tal, mentor de Anakin y Luke Skywalker. Kenobi es clave en la que casi es la extinción de los Jedi, las Guerras Clon, la caída de la República Galáctica y la lucha contra el posterior Imperio Galáctico.",
+            "duracion": "6 episodios - 1 temporada",
+            "URL": "https://www.youtube.com/watch?v=OWp--PzCjVs&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 14,
+            "nombre": "The Mandalorian",
+            "año": "2019",
+            "categoria": "2",
+            "descripcion": "Los viajes de un cazarrecompensas solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+            "duracion": "8 episodios - 1 temporada",
+            "URL": "https://www.youtube.com/watch?v=XmI7WKrAtqs&ab_channel=StarWars"
+        },
+        {
+            "id": 15,
+            "nombre": "The Mandalorian",
+            "año": "2020",
+            "categoria": "2",
+            "descripcion": "Los viajes de un cazarrecompensas solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+            "duracion": "7 episodios - 2 temporada",
+            "URL": "https://www.youtube.com/watch?v=4OnNEDDk7HQ&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 15,
+            "nombre": "The Mandalorian",
+            "año": "2023",
+            "categoria": "2",
+            "descripcion": "Los viajes de un cazarrecompensas solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+            "duracion": "7 episodios - 3 temporada",
+            "URL": "https://www.youtube.com/watch?v=KU7pwpYis5Y&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 16,
+            "nombre": "Andor",
+            "año": "2022",
+            "categoria": "2",
+            "descripcion": "Ambientada cinco años antes de los eventos de la película Rogue One,1​ la serie sigue al espía Cassian Andor durante los años de formación de la Alianza Rebelde.​ La serie muestra la transformación de Andor, un ladrón que se convierte en revolucionario y finalmente se une a la Rebelión contra el Imperio Galáctico.",
+            "duracion": "12 episodios - 1 temporada",
+            "URL": "https://www.youtube.com/watch?v=KU7pwpYis5Y&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 17,
+            "nombre": "El libro de Boba Feet",
+            "año": "2021",
+            "categoria": "2",
+            "descripcion": "El Libro de Boba Fett, una emocionante aventura de Star Wars, encuentra al legendario cazarrecompensas Boba Fett y a la mercenaria Fennec Shand navegando por el inframundo de la galaxia cuando regresan a las arenas de Tatooine para reclamar el territorio que una vez gobernó Jabba el Hutt y su sindicato criminal.",
+            "duracion": "7 episodios - 1 temporada",
+            "URL": "https://www.youtube.com/watch?v=hO35qr80wFI&ab_channel=StarWarsLatinoam%C3%A9rica"
+        },
+        {
+            "id": 18,
+            "nombre": "The light and the magic",
+            "año": "2022",
+            "categoria": "3",
+            "descripcion": "a serie explora qué inspiró a los directores más míticos de la historia de Hollywood para realizar las películas de Star Wars, entre otras. Todo desde sus primeras películas personales hasta cómo lograron dar vida a la imaginación de George Lucas.",
+            "duracion": "55 minutos",
+            "URL": "https://www.youtube.com/watch?v=f9asDkSivNE&ab_channel=StarWarsLatinoam%C3%A9rica"
         }
     ]
 }
-
