@@ -1,19 +1,16 @@
 import './App.css';
 import React from 'react';
-import Header from './componentes/header/header';
-import {Destacado} from './componentes/destacado/destacado';
-import { MasVistos } from './componentes/mas-vistos/mas-vistos';
-import { Footer } from './componentes/footer/footer';
+import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Destacado/>
-      <MasVistos/>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={Home}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
