@@ -14,8 +14,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
 import Firma from "../assets/firma.png"
-import '../css/footer.css';
 import '../css/peliculas.css';
+import '../css/footer.css';
 
 function Peliculas() {
 
