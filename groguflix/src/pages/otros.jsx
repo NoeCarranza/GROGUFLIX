@@ -119,15 +119,14 @@ function Otros() {
             <section className="Principal">
                 <h1 style={{
                     fontFamily: 'Oswald',
-                    color: '#ffff',
+                    color: '#000000',
                     fontSize: '5rem',
                 }}>Otros</h1>
                 <div style={{
                     fontFamily: 'Oswald',
-                    color: '#ffff',
+                    color: '#000',
                     fontSize: '2rem',
                 }}>(acá iría lo del json)</div>
-                
             </section>
 
 

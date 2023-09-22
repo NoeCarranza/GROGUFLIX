@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
 import Firma from "../assets/firma.png"
 import '../css/footer.css';
-
+import '../css/peliculas.css';
 
 function Peliculas() {
 
@@ -115,7 +115,19 @@ function Peliculas() {
                 </Container>
             </AppBar>
 
-
+            {/* Seccion principal */}
+            <section className="Peliculas">
+                <h1 style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '5rem',
+                }}>Peliculas</h1>
+                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+            </section>
 
                     {/* FOOTER */}
 
