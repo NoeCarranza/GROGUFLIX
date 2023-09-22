@@ -124,7 +124,12 @@ function Home() {
 
             {/* destacado */}
 
-            <section className="Contenedor">
+            <section className="Contenedor" style={{
+                    backgroundSize: '100%',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center',
+                    width: '100%',
+            }}>
                 <div className="secciones" style={{
                     display: 'flex',
                     flexDirection: 'row',
@@ -135,6 +140,7 @@ function Home() {
                 }}>
                     <img className="ahsoka" src={PosterAhsoka} alt="Ahsoka" style={{
                         maxWidth: '350px',
+                        padding: '29px',
                     }}></img>
                     <div className="info"style={{
                             color: '#FFFFFF',
@@ -164,7 +170,6 @@ function Home() {
                         }}>
                             Ya Disponible!
                         </Typography>
-
 
 
                         <Typography sx={{
@@ -220,7 +225,9 @@ function Home() {
                             <h3>2023</h3>
                         </div>
                         <div className="contenedor-imagenes">
-                            <img src={Poster} alt="peliculas" className="imagenes"></img>
+                            <img src={Poster} alt="peliculas" className="imagenes" style={{
+                                width:'270px',
+                            }}></img>
                             <h2>Star Wars</h2>
                             <h3>The Force Awakens</h3>
                             <h3>2015</h3>

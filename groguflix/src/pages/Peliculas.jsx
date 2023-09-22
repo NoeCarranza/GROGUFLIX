@@ -4,6 +4,8 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import Logo from "../assets/grogu2.png"
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
@@ -12,30 +14,37 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
 import Firma from "../assets/firma.png"
-import '../css/header.css';
 import '../css/footer.css';
 
 
 function Peliculas() {
 
+    const pages = ['Saga', 'Series', 'Otros'];
+
     return (
         <div>
             {/* Menu */}
-            <AppBar position="static" sx={{
+            <AppBar position="static" style={{
                 backgroundColor: '#328888',
                 fontFamily: 'Oswald',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
             }}>
                 <Container maxWidth="xl">
-                    <Toolbar>
+                    <Toolbar
+                    style={{
+                        display: 'flex',
+                        flexDirection:'row',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: '100%',
+                    }}>
                         <Box>
-                            <img src="/img/grogu2.png" />
+                            <img src={Logo} style={{
+                                maxWidth:'350px',
+                            }} />
                         </Box>
                         <Box sx={{
                             flexGrow: 1, display: {
-                                md: 'none',
+                                md: 'flex',
                                 width: '400px',
                                 alignItems: 'center',
                                 justifyContent: 'center',
@@ -53,9 +62,6 @@ function Peliculas() {
                                 transformOrigin={{
                                     vertical: 'top',
                                     horizontal: 'left',
-                                }}
-                                sx={{
-                                    display: { xs: 'block', md: 'none' },
                                 }}
                             >
                                 {pages.map((page) => (
@@ -108,6 +114,9 @@ function Peliculas() {
                     </Toolbar>
                 </Container>
             </AppBar>
+
+
+
                     {/* FOOTER */}
 
                     <footer className="footer"
