@@ -1,0 +1,29 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+}
+
+.formulario form{
+    background-image: url(../assets/nueva-categoria.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: #343232;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #dedede;
+    margin: 20px;
+    align-self: center;
+}

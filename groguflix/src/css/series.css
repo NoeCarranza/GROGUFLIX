@@ -1,8 +1,8 @@
-.Peliculas{
-    background-image: url(../assets/peliculas.jpg);
+.Series{
+    background-image: url(../assets/form.jpg);
     width: 100%;
     background-position: left;
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #000000;
 }

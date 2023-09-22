@@ -1,0 +1,33 @@
+.contenedor{
+    position: absolute;
+    background-image: url(../assets/inicio1.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+}
+.Icono{
+    width: 80%;
+    align-self: center;
+}
+
+.boton-ingreso{
+    background-color: #9BBF65;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 16px 18px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    width: 20%;
+    align-self: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.boton-ingreso:hover{
+    color: #000000;;
+}

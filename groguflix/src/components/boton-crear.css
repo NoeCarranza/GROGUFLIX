@@ -1,0 +1,18 @@
+.boton{
+    background-color: #166d81;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 16px 18px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 20px 20px 40px 40px;
+    width: 30%;
+}
+
+.boton:hover{
+    color: #2fc167;;
+}
+

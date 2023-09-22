@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
 import Firma from "../assets/firma.png"
 import '../css/footer.css';
-
+import '../css/series.css';
 
 function Series() {
 
@@ -115,7 +115,101 @@ function Series() {
                 </Container>
             </AppBar>
 
+            {/* Seccion principal */}
+            <section className="Series">
+                <h1 style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '5rem',
+                }}>Series</h1>
+                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
+                                <div style={{
+                    fontFamily: 'Oswald',
+                    color: '#ffffff',
+                    fontSize: '2rem',
+                }}>(acá iría lo del json)</div>
 
+                
+            </section>
 
                     {/* FOOTER */}
 
