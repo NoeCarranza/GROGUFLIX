@@ -2,6 +2,7 @@
     background-image: url(../assets/background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
     display: flex;
@@ -12,17 +13,5 @@
 }
 
 .ahsoka{
-    padding: 10px;
-    transition: all 300ms;
-}
-
-.ahsoka:hover{
-    transform: scale(1.15);
-}
-
-.info{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-left: 20px;
+    padding: 29px;
 }

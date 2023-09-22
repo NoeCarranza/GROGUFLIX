@@ -16,7 +16,7 @@ import '../css/header.css';
 import '../css/footer.css';
 
 
-function Peliculas() {
+function Series() {
 
     return (
         <div>
@@ -172,4 +172,4 @@ function Peliculas() {
         
     )
 }
-export default Peliculas;
+export default Series;

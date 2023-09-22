@@ -16,8 +16,7 @@ import '../css/header.css';
 import '../css/footer.css';
 
 
-function Peliculas() {
-
+function Formulario() {
     return (
         <div>
             {/* Menu */}
@@ -172,4 +171,4 @@ function Peliculas() {
         
     )
 }
-export default Peliculas;
+export default Formulario;

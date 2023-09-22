@@ -7,6 +7,10 @@ import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
+import Logo from "../assets/grogu2.png"
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
 import PosterAhsoka from "../assets/ahsokaposter.webp";
@@ -14,7 +18,7 @@ import Mandalorian from "../assets/mandalorian.jpg"
 import Poster from "../assets/star-wars-poster.jpg"
 import Documental from "../assets/theforceandthemagic.jpeg"
 import Peli from "../assets/peli-sw.webp"
-import '../css/header.css';
+import Firma from "../assets/firma.png"
 import '../css/destacado.css';
 import '../css/mas-vistos.css'
 import '../css/footer.css';
@@ -25,22 +29,29 @@ function Home() {
     const pages = ['Saga', 'Series', 'Otros'];
 
     return (
-<>
-<AppBar position="static" sx={{
+        <main>
+            {/* Menu */}
+            <AppBar position="static" style={{
                 backgroundColor: '#328888',
                 fontFamily: 'Oswald',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
             }}>
                 <Container maxWidth="xl">
-                    <Toolbar>
+                    <Toolbar
+                    style={{
+                        display: 'flex',
+                        flexDirection:'row',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: '100%',
+                    }}>
                         <Box>
-                            <img src="/img/grogu2.png" />
+                            <img src={Logo} style={{
+                                maxWidth:'350px',
+                            }} />
                         </Box>
                         <Box sx={{
                             flexGrow: 1, display: {
-                                md: 'none',
+                                md: 'flex',
                                 width: '400px',
                                 alignItems: 'center',
                                 justifyContent: 'center',
@@ -58,9 +69,6 @@ function Home() {
                                 transformOrigin={{
                                     vertical: 'top',
                                     horizontal: 'left',
-                                }}
-                                sx={{
-                                    display: { xs: 'block', md: 'none' },
                                 }}
                             >
                                 {pages.map((page) => (
@@ -114,148 +122,187 @@ function Home() {
                 </Container>
             </AppBar>
 
-<section className="Contenedor">
-            <div className="secciones" style={{
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: '60px',
-                width: '100%',
-            }}>
-                <img className="ahsoka" src={PosterAhsoka} alt="Ahsoka"></img>
-                <div className="info">
-                    <Typography sx={{
-                        fontSize: '4rem',
-                        fontFamily: 'Oswald',
-                        fontWeight: '700',
-                        color: '#FFFFFF',
-                    }}
-                    >Ashoka
-                    </Typography>
+            {/* destacado */}
+
+            <section className="Contenedor">
+                <div className="secciones" style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '100%',
+                    padding: '29px 0 10px 0',
+                }}>
+                    <img className="ahsoka" src={PosterAhsoka} alt="Ahsoka" style={{
+                        maxWidth: '350px',
+                    }}></img>
+                    <div className="info"style={{
+                            color: '#FFFFFF',
+                            padding:'0',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'start',
+                            justifyContent: 'flex-start',
+                            padding: '0',
+                            }}
+                    >
+                        <Typography style={{
+                            fontSize: '5rem',
+                            fontWeight: '700',
+                            fontFamily: 'Oswald',
+                            padding: '0',
+                            margin:'0',
+                        }}>Ashoka
+                        </Typography>
 
 
-                    <Typography sx={{
-                        fontSize: '2rem',
-                        fontFamily: 'Oswald',
-                        fontWeight: '200',
-                        color: '#ffffffb6',
-                        paddingBottom: '10px',
-                    }}>
-                        Ya Disponible!
-                    </Typography>
-
-
-                        
                         <Typography sx={{
-                            textAlign:'justify',
-                            fontFamily:'Oswald',
+                            fontSize: '2rem',
+                            fontFamily: 'Oswald',
+                            fontWeight: '200',
+                            color: '#ffffffb6',
+                        }}>
+                            Ya Disponible!
+                        </Typography>
+
+
+
+                        <Typography sx={{
+                            textAlign: 'justify',
+                            fontFamily: 'Oswald',
                             color: '#ffffff',
                             fontSize: '20px',
-                            maxWidth:'650px',
+                            maxWidth: '650px',
                         }}>
-                            Después de la caída del Imperio, seguiremos a la Jedi 
-                            “en la caza del malvado Gran Almirante Thrawn 
-                            con la esperanza de localizar al desaparecido Ezra Bridger, 
+                            Después de la caída del Imperio, seguiremos a la Jedi
+                            “en la caza del malvado Gran Almirante Thrawn
+                            con la esperanza de localizar al desaparecido Ezra Bridger,
                             el joven Jedi que desapareció con Thrawn hace muchos años.
-                            La Galaxia, más vulnerable que nunca, 
-                            se expone a una nueva amenaza. 
-                            Ahsoka Tano, 
-                            la antigua padawan de Anakin Skywalker deberá 
+                            La Galaxia, más vulnerable que nunca,
+                            se expone a una nueva amenaza.
+                            Ahsoka Tano,
+                            la antigua padawan de Anakin Skywalker deberá
                             investigar el origen y naturaleza de la misma.
-                            </Typography> 
-                        
+                        </Typography>
+
                         <Button variant="contained" color="success" style={{
                             width: '150px',
                             height: '50px',
                             fontFamily: 'Oswald',
                             fontSize: '20px',
                             backgroundColor: '#1a9102',
-                            marginTop: '20px',
+                            marginTop: '10px',
                         }}>
                             Ver trailer
                         </Button>
+                    </div>
                 </div>
-            </div>
-        
-        <div className="container">
-            <h1 style={{
-                fontSize: '3rem',
-                fontWeight: '800',
-            }}>Más Vistos</h1>
-            <div 
+            </section>
+
+            {/* mas vistos */}
+            <section>
+                <div className="container">
+                    <h1 style={{
+                        fontSize: '3rem',
+                        fontWeight: '800',
+                    }}>Más Vistos</h1>
+                    <div
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}>
+                        <div className="contenedor-imagenes">
+                            <img src={Mandalorian} alt="mandalorian" className="imagenes"></img>
+                            <h2>Mandalorian</h2>
+                            <h3>Temporada 3</h3>
+                            <h3>2023</h3>
+                        </div>
+                        <div className="contenedor-imagenes">
+                            <img src={Poster} alt="peliculas" className="imagenes"></img>
+                            <h2>Star Wars</h2>
+                            <h3>The Force Awakens</h3>
+                            <h3>2015</h3>
+                        </div>
+                        <div className="contenedor-imagenes">
+                            <img src={Documental} alt="peliculas" className="imagenes"></img>
+                            <h2>Light & Magic</h2>
+                            <h3>Documental</h3>
+                            <h3>2022</h3>
+                        </div>
+                        <div className="contenedor-imagenes">
+                            <img src={Peli} alt="peliculas" className="imagenes"></img>
+                            <h2>Star Wars: Episode IV</h2>
+                            <h3>A New Hope</h3>
+                            <h3>1977</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FOOTER */}
+
+            <footer className="footer"
+            style={{
+                backgroundColor: '#156c6c',
+                width: '100 %',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-around',
+                boxSizing: 'border-box',
+                color: '#ffffff',
+                fontSize: '20px',
+                padding: '20px',
+                margin: '0%',
+                fontFamily: 'Oswald',
+                fontWeight: '200',
+
+}}>
+        <div className="redes" style={{
+            gap: '20px',
+            display: 'flex',
+            alignContent: 'center',
+            flexDirection: 'row',
+            alignItems:'center',
+        }}>
+            <a href='https://github.com/NoeCarranza'>
+                <FacebookIcon style={{
+                    color: '#2d2020',
+                    fontSize: '40px',
+                }}/>
+            </a>
+            <a href='https://github.com/NoeCarranza'>
+                <TwitterIcon style={{
+                    color: '#2d2020',
+                    fontSize: '40px',
+
+                }}/>
+            </a>
+            <a href='https://github.com/NoeCarranza'>
+                <InstagramIcon
                 style={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                }}>
-                <div className="contenedor-imagenes">
-                    <img src={Mandalorian} alt="mandalorian" className="imagenes"></img>
-                    <h2>Mandalorian</h2>
-                    <h3>Temporada 3</h3>
-                    <h3>2023</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Poster} alt="peliculas" className="imagenes"></img>
-                    <h2>Star Wars</h2>
-                    <h3>The Force Awakens</h3>
-                    <h3>2015</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Documental} alt="peliculas" className="imagenes"></img>
-                    <h2>Light & Magic</h2>
-                    <h3>Documental</h3>
-                    <h3>2022</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Peli} alt="peliculas" className="imagenes"></img>
-                    <h2>Star Wars: Episode IV</h2>
-                    <h3>A New Hope</h3>
-                    <h3>1977</h3>
-                </div>
-            </div>
+                    color: '#2d2020',
+                    fontSize: '40px',
+                }}/>
+            </a>
         </div>
-        <div className="container">
-            <h1 style={{
-                fontSize: '3rem',
-                fontWeight: '800',
-            }}>Más Vistos</h1>
-            <div 
-                style={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                }}>
-                <div className="contenedor-imagenes">
-                    <img src={Mandalorian} alt="mandalorian" className="imagenes"></img>
-                    <h2>Mandalorian</h2>
-                    <h3>Temporada 3</h3>
-                    <h3>2023</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Poster} alt="peliculas" className="imagenes"></img>
-                    <h2>Star Wars</h2>
-                    <h3>The Force Awakens</h3>
-                    <h3>2015</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Documental} alt="peliculas" className="imagenes"></img>
-                    <h2>Light & Magic</h2>
-                    <h3>Documental</h3>
-                    <h3>2022</h3>
-                </div>
-                <div className="contenedor-imagenes">
-                    <img src={Peli} alt="peliculas" className="imagenes"></img>
-                    <h2>Star Wars: Episode IV</h2>
-                    <h3>A New Hope</h3>
-                    <h3>1977</h3>
-                </div>
-            </div>
+        <div className="desarrollado" style={{
+                        display: 'flex',
+                        alignContent: 'center',
+                        flexDirection: 'row',
+                        alignItems:'center',
+                        color: '#2d2020',
+        }}>
+        <strong>Desarrollado por:</strong>
+        <img className="firma" src={Firma} alt="firma" style={{
+            width: '80px',
+        }}/>
         </div>
-        </section>
-</>
+
+    </footer >
+
+        </main>
     );
 }
 
