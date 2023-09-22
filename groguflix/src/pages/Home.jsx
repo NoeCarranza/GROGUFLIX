@@ -9,11 +9,11 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import SendIcon from '@mui/icons-material/Send';
-import PosterAhsoka from "../../assets/ashokaposter.webp";
-import Mandalorian from "../../assets/mandalorian.jpg"
-import Poster from "../../assets/star-wars-poster.jpg"
-import Documental from "../../assets/theforceandthemagic.jpeg"
-import Peli from "../../assets/peli-sw.webp"
+import PosterAhsoka from "../assets/ahsokaposter.webp";
+import Mandalorian from "../assets/mandalorian.jpg"
+import Poster from "../assets/star-wars-poster.jpg"
+import Documental from "../assets/theforceandthemagic.jpeg"
+import Peli from "../assets/peli-sw.webp"
 import '../css/header.css';
 import '../css/destacado.css';
 import '../css/mas-vistos.css'
