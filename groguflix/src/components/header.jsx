@@ -5,26 +5,26 @@ import './header.css';
 
 
 const Header = () => {
-    
+
     return (
-            <section className="menu">
-                    <Link style={{ textDecoration: 'none' }}>
-                        <img src={Logo} style={{
-                            maxWidth: '350px',
-                        }} />
-                    </Link>
-                    <div className="links">
-                        <Link className="enlaces"
-                            >SAGA</Link>
-                        <Link className="enlaces"
-                            >SERIES</Link>
-                                                    <Link className="enlaces"
-                            >OTROS</Link>
-                        
-                        </div>
-                        <button className="boton-formulario">Subir video </button>
-            </section>
-        
+        <section className="menu">
+            <Link to="/Home" style={{ textDecoration: 'none' }}>
+                <img src={Logo} style={{
+                    maxWidth: '350px',
+                }} />
+            </Link>
+            <div className="links">
+                <Link to="/Peliculas" className="enlaces"
+                >SAGA</Link>
+                <Link to="/Series" className="enlaces"
+                >SERIES</Link>
+                <Link to="otros"className="enlaces"
+                >OTROS</Link>
+
+            </div>
+            <Link to="/Formulario"><button className="boton-formulario">Subir video </button></Link>
+        </section>
+
     )
 }
 

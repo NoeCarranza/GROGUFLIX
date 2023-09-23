@@ -8,7 +8,7 @@ const Inicio = () =>{
     return(
         <div className="contenedor">
     <img src={Icono} alt="Icono" className="Icono"></img>
-    <Link>
+    <Link to="/Home">
     <button  className="boton-ingreso">Ingresar</button>
     </Link>
     </div>
