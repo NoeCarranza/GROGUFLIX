@@ -13,11 +13,19 @@
     width: 450px;
     box-shadow: 10px 10px 10px rgba(76, 76, 76, 0.526);
     padding-bottom: 10px;
+    height: 850px;
 }
 
+.descripcion-peliculas{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0;
+    margin: 10px;
+}
 .titulo-video{
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 305x;
     width: 100%;
     text-align: center;
 }
@@ -38,5 +46,4 @@
     width: 450px;
     height: 675px;
     align-self: center;
-    padding-top: 10px;
 }
