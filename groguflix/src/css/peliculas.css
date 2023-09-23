@@ -1,8 +1,9 @@
 .Peliculas{
     background-image: url(../assets/peliculas.jpg);
     width: 100%;
-    background-position: left;
+    background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #000000;
+    padding-bottom: 40px;
 }
