@@ -26,6 +26,7 @@
     align-self: center;
     position: absolute;
     bottom: 50px;
+    left: 800px;
 }
 
 .boton-ingreso:hover{

@@ -1,0 +1,23 @@
+.notfound{
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #FFE9DC;
+    width: 100%;
+}
+
+.grogu{
+    width: 450px;
+    align-self: center;
+}
+
+.titulo{
+    color: black;
+    font-size: 4rem;
+    align-self: center;    
+}
+
+.cuerpo{
+    color:black;
+    padding-bottom: 20px;
+}
