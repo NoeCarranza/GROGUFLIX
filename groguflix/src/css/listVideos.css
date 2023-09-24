@@ -12,8 +12,8 @@
     background-color: rgba(0, 0, 0, 0.856);
     width: 450px;
     box-shadow: 10px 10px 10px rgba(76, 76, 76, 0.526);
-    padding-bottom: 10px;
     height: 850px;
+    margin: 20px;
 }
 
 .descripcion-peliculas{

@@ -1,9 +1,10 @@
 .Contenedor{
-    background-size:50%;
+    background-size:70%;
     background-repeat: repeat-y;
-    background-position:bottom;
+    background-position:center;
     width: 100%;
-    background-color: rgb(3, 86, 66);
+    background-color: #111111;
+    background-image: url(../assets/3.jpg);
 }
 
 .secciones{
@@ -48,9 +49,10 @@
     padding: 20px 0 20px 0;
     text-align: justify;
     font-family: 'Oswald',sans-serif;
-    color: #d6d3d3;
-    font-size: 20px;
-    width: 650px;
+    color: #ffffff;
+    font-size: 21px;
+    width: 480px;
+    background-color: #11111153;
 }
 
 .btn-ver-mas{

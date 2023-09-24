@@ -1,8 +1,8 @@
-.Principal{
-    background-image: url(../assets/inicio.jpg);
+.Otros{
+    background-image: url(../assets/bb8.png);
     width: 100%;
-    background-position: left;
-    background-size: auto;
+    background-position: center;
+    background-size: 90%;
     background-repeat: no-repeat;
-    background-color: #FCE9D9;
+    background-color: #8C4934;
 }

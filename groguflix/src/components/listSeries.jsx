@@ -3,20 +3,21 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import '../css/listVideos.css'
 
-const ListSeries= ({ url }) => {
-    const [videos, setVideos] = useState([])
+
+const ListaSeries = ({ url }) => {
+const [videos, setVideos] = useState([])
 
     useEffect(()=> {
         buscar(url, setVideos)
     }, [url])
 
     return(
-        <section>
+        <section className="videos-container">
             {
                 videos.filter((item)=> item.categoria==='series').map( video =>{
                     const { id,nombre, año,duracion,imagen,categoria,URL} = video;
                     return(
-                        <Link to={`/series/${id}`}style={{ textDecoration:'none'}} key={id}>
+                        <Link to={`/videos/${id}`}style={{ textDecoration:'none'}} key={id}>
                             <div className="cajas">
                         <img src={`${imagen}`}></img>
                         <div>
@@ -33,4 +34,4 @@ const ListSeries= ({ url }) => {
     )
 }
 
-export default ListSeries
+export default ListaSeries

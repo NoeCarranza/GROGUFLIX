@@ -6,6 +6,7 @@ import Documental from "../assets/theforceandthemagic.jpeg"
 import Peli from "../assets/peli-sw.webp"
 import '../css/destacado.css';
 import '../css/mas-vistos.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,19 +23,21 @@ function Home() {
                         <h1 className='tit'>Ashoka</h1>
                         <h2 className='subtitulo'>Ya Disponible!</h2>
                         <h3 className='texto' >
-                            Después de la caída del Imperio, seguiremos a la Jedi
-                            “en la caza del malvado Gran Almirante Thrawn
-                            con la esperanza de localizar al desaparecido Ezra Bridger,
-                            el joven Jedi que desapareció con Thrawn hace muchos años.
+                            Ambientada después de la caída del Imperio,
+                            Ahsoka sigue a la antigua caballero Jedi Ahsoka Tano mientras investiga
+                            una amenaza emergente que se cierne sobre la galaxia.
                             La Galaxia, más vulnerable que nunca,
                             se expone a una nueva amenaza.
                             Ahsoka Tano,
                             la antigua padawan de Anakin Skywalker deberá
                             investigar el origen y naturaleza de la misma.
+
                         </h3>
-                        <button className='btn-ver-mas'>
-                            Ver trailer
-                        </button>
+                        <Link to="/videos/12">
+                            <button className='btn-ver-mas'>
+                                Ver trailer
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -45,29 +48,41 @@ function Home() {
                     <h1 className='tit'>MAS VISTOS</h1>
                     <div className='cartelera'>
                         <div className="contenedor-imagenes">
-                            <div to="/Series"><img src={Mandalorian} alt="mandalorian" className="imagenes"></img></div>
+                            <div to="/Series">
+                                <Link to="/videos/14">
+                                    <img src={Mandalorian} alt="mandalorian" className="imagenes">
+                                    </img>
+                                </Link>
+                            </div>
                             <h2>Mandalorian</h2>
-                            <h3>Temporada 3</h3>
-                            <h3>2023</h3>
+                            <h3>Temporada 1</h3>
+                            <h3>2019</h3>
                         </div>
                         <div className="contenedor-imagenes">
                             <div to="/Peliculas">
-                            <img src={Poster} alt="peliculas" className="imagenes" style={{
-                                width:'270px',
-                            }}></img></div>
+                                <Link to="/videos/7">
+                                    <img src={Poster} alt="peliculas" className="imagenes" style={{
+                                        width: '270px',
+                                    }}></img></Link>
+                            </div>
                             <h2>Star Wars</h2>
                             <h3>The Force Awakens</h3>
                             <h3>2015</h3>
                         </div>
                         <div className="contenedor-imagenes">
                             <div to="/Otros">
-                            <img src={Documental} alt="peliculas" className="imagenes"></img></div>
+                                <Link to='/videos/18'>
+                                    <img src={Documental} alt="peliculas" className="imagenes"></img></Link></div>
                             <h2>Light & Magic</h2>
                             <h3>Documental</h3>
                             <h3>2022</h3>
                         </div>
                         <div className="contenedor-imagenes">
-                            <div to="/Peliculas"><img src={Peli} alt="peliculas" className="imagenes"></img></div>
+                            <div to="/Peliculas">
+                                <Link to='/videos/1'>
+                                    <img src={Peli} alt="peliculas" className="imagenes"></img>
+                                </Link>
+                            </div>
                             <h2>Star Wars: Episode IV</h2>
                             <h3>A New Hope</h3>
                             <h3>1977</h3>
@@ -76,7 +91,7 @@ function Home() {
                 </div>
             </section>
 
-        </main>
+        </main >
     );
 }
 

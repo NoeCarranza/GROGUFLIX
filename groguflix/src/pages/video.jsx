@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { buscar } from "../API/api";
 import '../css/video.css';
-import styled from "styled-components";
 
 
 const Video = ({ url }) => {
