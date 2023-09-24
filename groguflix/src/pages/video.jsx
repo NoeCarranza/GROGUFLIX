@@ -34,7 +34,13 @@ const Video = ({ url }) => {
                 <h3 style={{ textAlign:'justify', width:'350px'}}>{videos.descripcion}</h3>
             <img className="poster"src={`${videos.imagen}`} style={{ width: '350px'}}></img>
             </div>
-            <video src={`${videos.URL}`} allow='autoplay'></video>
+            <iframe 
+            width="853"
+            height="480"
+            src={`${videos.URL}`} 
+            allow='autoplay; accelerometer;clipboard-write;encrypted-media'
+            allowFullScreen>
+            </iframe>
             
         </div>
     )
