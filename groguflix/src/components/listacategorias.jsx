@@ -28,7 +28,7 @@ const ListaCategorias = ({ url }) => {
         <select className="sel-cat">
             <option>Seleccionar categoría</option>
             {categorias.map(item => (
-                <option key={item.id} value={item.id}>{item.categoria}</option>
+                <option className="selec" key={item.id} value={item.id} style={{}}>{item.categoria}</option>
             ))}
         </select>
     );
