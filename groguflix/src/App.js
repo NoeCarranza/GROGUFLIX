@@ -19,11 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio/>} />
         <Route path='/Home' element={<Home />} />
-        <Route path='/peliculas' element={<Peliculas />} />
+        <Route path='/videos' element={<Peliculas />} />
         <Route path='/Series' element={<Series />} />
         <Route path='/Otros' element={<Otros />} />
         <Route path='/Formulario' element={<Formulario />} />
-        <Route path='/peliculas/:id' element={<Video />} />
+        <Route path='/videos/:id' element={<Video />} />
         <Route path='*' element={< Notfound />} />
       </Routes>
       <Footer/>

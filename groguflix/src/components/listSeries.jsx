@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import '../css/listVideos.css'
 
-const ListVideos = ({ url }) => {
+const ListSeries= ({ url }) => {
     const [videos, setVideos] = useState([])
 
     useEffect(()=> {
@@ -33,4 +33,4 @@ const ListVideos = ({ url }) => {
     )
 }
 
-export default ListVideos
+export default ListSeries

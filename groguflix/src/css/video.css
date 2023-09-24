@@ -1,0 +1,14 @@
+.video-container{
+    display: flex;
+    background-color: #0000;
+}
+
+.titulo-video{
+    color: #0000;
+    font-size: 4rem;
+}
+
+
+.poster{
+    width: 500px;
+}

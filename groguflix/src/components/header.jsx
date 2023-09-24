@@ -14,7 +14,7 @@ const Header = () => {
                 }} />
             </Link>
             <div className="links">
-                <Link to="/Peliculas" className="enlaces"
+                <Link to="/videos" className="enlaces"
                 >SAGA</Link>
                 <Link to="/Series" className="enlaces"
                 >SERIES</Link>
