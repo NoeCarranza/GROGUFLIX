@@ -10,8 +10,9 @@ const Formulario = (props) => {
     const [URL, actualizarURL] = useState("")
     const [categoria, actualizarCategoria] = useState("")
     const [descripcion, actualizarDescripcion] = useState("")
+    const [imagen, actualizarImagen] = useState("")
 
-    const {RegistrarVideo} = props
+    const { RegistrarVideo } = props
 
     const manejarEnvio = (e) => {
         e.preventDefault()
@@ -19,8 +20,9 @@ const Formulario = (props) => {
         let datosAEnviar = {
             nombre: nombre,
             categoria: categoria,
+            image:imagen,
             URL: URL,
-            descripcion:descripcion
+            descripcion: descripcion
         }
         RegistrarVideo(datosAEnviar)
 
@@ -46,6 +48,13 @@ const Formulario = (props) => {
 
             />
             <Campo
+                titulo="imagen"
+                placeholder="Ingresa el enlace de la imagen del video"
+                required
+                valor={imagen}
+                actualizarValor={actualizarImagen}
+            />
+            <Campo
                 titulo="URL"
                 placeholder="Ingresa el enlace de la URL"
                 required
@@ -53,12 +62,12 @@ const Formulario = (props) => {
                 actualizarValor={actualizarURL}
             />
 
-            <ListaOpciones 
-            valor={categoria}
-            actualizarcategoria={actualizarCategoria}
-            categorias={props.categorias}
+            <ListaOpciones
+                valor={categoria}
+                actualizarcategoria={actualizarCategoria}
+                categorias={props.categorias}
 
-            
+
             />
             <Boton texto="Agregar video" />
         </form>
