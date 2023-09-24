@@ -35,7 +35,7 @@ const Video = ({ url }) => {
                 <h3 style={{ textAlign:'justify', width:'350px'}}>{videos.descripcion}</h3>
             <img className="poster"src={`${videos.imagen}`} style={{ width: '350px'}}></img>
             </div>
-            <iframe src={`${videos.URL}`}></iframe>
+            <video src={`${videos.URL}`} allow='autoplay'></video>
             
         </div>
     )
