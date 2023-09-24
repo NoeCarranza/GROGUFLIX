@@ -32,10 +32,4 @@ const [videos, setVideos] = useState([])
     )
 }
 
-const listaSeries = () =>{
-
-
-}
-
-
 export default ListVideos

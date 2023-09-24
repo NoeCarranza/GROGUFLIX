@@ -1,9 +1,9 @@
 .Contenedor{
-    background-image: url(../assets/background-1.jpg);
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size:50%;
+    background-repeat: repeat-y;
+    background-position:bottom;
     width: 100%;
+    background-color: rgb(3, 86, 66);
 }
 
 .secciones{
@@ -18,12 +18,8 @@
 .ahsoka{
     max-width: 350px;
     padding: 29px;
-    opacity: 0.8;
 }
 
-.ahsoka:hover{
-    opacity: 1;
-}
 
 .info{
     display: flex;
@@ -39,20 +35,20 @@
     font-family: 'Oswald', sans-serif;
     padding: 0;
     margin:0;
-    color: #c1bfbf97;
+    color: #8b8b8b;
 }
 .subtitulo{
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    color: #ffffffb6;
+    color: #d6d3d3;
 }
 
 .texto{
     padding: 20px 0 20px 0;
     text-align: justify;
     font-family: 'Oswald',sans-serif;
-    color: #ffffff;
+    color: #d6d3d3;
     font-size: 20px;
     width: 650px;
 }
