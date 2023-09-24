@@ -4,7 +4,6 @@ import Mandalorian from "../assets/mandalorian.jpg"
 import Poster from "../assets/star-wars-poster.jpg"
 import Documental from "../assets/theforceandthemagic.jpeg"
 import Peli from "../assets/peli-sw.webp"
-import { Link } from 'react-router-dom';
 import '../css/destacado.css';
 import '../css/mas-vistos.css';
 
@@ -46,29 +45,29 @@ function Home() {
                     <h1 className='tit'>MAS VISTOS</h1>
                     <div className='cartelera'>
                         <div className="contenedor-imagenes">
-                            <Link to="/Series"><img src={Mandalorian} alt="mandalorian" className="imagenes"></img></Link>
+                            <div to="/Series"><img src={Mandalorian} alt="mandalorian" className="imagenes"></img></div>
                             <h2>Mandalorian</h2>
                             <h3>Temporada 3</h3>
                             <h3>2023</h3>
                         </div>
                         <div className="contenedor-imagenes">
-                            <Link to="/Peliculas">
+                            <div to="/Peliculas">
                             <img src={Poster} alt="peliculas" className="imagenes" style={{
                                 width:'270px',
-                            }}></img></Link>
+                            }}></img></div>
                             <h2>Star Wars</h2>
                             <h3>The Force Awakens</h3>
                             <h3>2015</h3>
                         </div>
                         <div className="contenedor-imagenes">
-                            <Link to="/Otros">
-                            <img src={Documental} alt="peliculas" className="imagenes"></img></Link>
+                            <div to="/Otros">
+                            <img src={Documental} alt="peliculas" className="imagenes"></img></div>
                             <h2>Light & Magic</h2>
                             <h3>Documental</h3>
                             <h3>2022</h3>
                         </div>
                         <div className="contenedor-imagenes">
-                            <Link to="/Peliculas"><img src={Peli} alt="peliculas" className="imagenes"></img></Link>
+                            <div to="/Peliculas"><img src={Peli} alt="peliculas" className="imagenes"></img></div>
                             <h2>Star Wars: Episode IV</h2>
                             <h3>A New Hope</h3>
                             <h3>1977</h3>
