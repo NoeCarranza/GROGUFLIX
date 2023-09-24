@@ -24,9 +24,7 @@
     font-weight: 400;
     width: 20%;
     align-self: center;
-    position: absolute;
     bottom: 50px;
-    left: 600px;
 }
 
 .boton-ingreso:hover{
