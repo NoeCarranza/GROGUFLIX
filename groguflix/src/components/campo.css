@@ -1,37 +1,50 @@
 .campo{
-    margin: 12px 0;
-    font-family: 'Oswald', sans-serif;
-    width: 30%;
-    padding-left: 20px;
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
-.campo label{
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     display: block;
-    font-weight: 50;
-    color:#FFF;
-    padding-left:5px ;
-    align-self: start;
+    font-weight: 900;
+    margin-bottom: 8px;
 }
 
-.campo input{
-    width: 100%;
+input{
     background-color: #FFF;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
     border: none;
-    padding: 20px 10px;
+    padding: 30px 20px;
     box-sizing: border-box;
     outline-color: #44a9a9;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    border-radius: 15px;
-    margin: 0;
+    font-weight: lighter;
 }
 
-
-.campo-color input{
-    height: 40px;
-    padding: 5px;
+input, label{
+    width: 100%;
+    max-width: 800px;
+    gap: 1rem;
+    border-radius: 20px;
 }
+
+.boton{
+    background-color: #077d6d;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    padding: 24px 32px;
+    border: none;
+    color: #ffffff;
+    margin: 32px 0;
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: #83fcfc;;
+}
+

@@ -5,5 +5,26 @@
         background-size: auto;
         background-repeat: no-repeat;
         background-color: #FCE9D9;
+        font-family: 'Oswald', sans-serif;
 }
 
+
+
+.opciones-label{
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+}
+
+.opciones-opcion{
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+        padding: 24px;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        font-weight: bold;
+        outline-color: #44a9a9;
+        font-size: 16px;
+}

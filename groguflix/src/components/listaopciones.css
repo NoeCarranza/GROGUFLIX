@@ -1,17 +1,9 @@
-
-.lista-opciones{
-    width: 30%;
-    padding-left: 20px;
-    margin: 0;
-}
 .lista-opciones label{
     display: block;
-    font-size: 24px;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif;
-    color: #ffffff;
-    align-self: start;   
-    padding-left:5px ;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
 }
 
 .lista-opciones select{
@@ -19,13 +11,9 @@
     background-color: #ffffff;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
     padding: 24px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border: none;
+    font-weight: bold;
     outline-color: #44a9a9;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 15px;
-    margin: 0;
-    
-
+    font-size: 16px;
 }

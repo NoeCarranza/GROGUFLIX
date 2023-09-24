@@ -11,6 +11,8 @@ const [videos, setVideos] = useState([])
         buscar(url, setVideos)
     }, [url])
 
+    // console.table(videos);
+
     return(
         <section className="videos-container">
             {

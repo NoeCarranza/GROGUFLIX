@@ -1,77 +1,67 @@
 import { useState } from "react"
-import "./formulario.css"
-import Campo from "./campo"
-import ListaOpciones from "./listaopciones"
-import Boton from "./boton-crear"
+import "./formulario.css";
+import './campo.css';
+import ListaCategorias from "./listacategorias";
 
 const Formulario = (props) => {
 
-    const [nombre, actualizarNombre] = useState("")
-    const [URL, actualizarURL] = useState("")
-    const [categoria, actualizarCategoria] = useState("")
-    const [descripcion, actualizarDescripcion] = useState("")
-    const [imagen, actualizarImagen] = useState("")
 
-    const { RegistrarVideo } = props
+    const GuardarDatos = (e) => {
+        const [nombre, actualizarNombre] = useState("")
+        const [año, actualizarAño] = useState("")
+        const [descripcion, actualizarDescripcion] = useState("")
+        const [foto, actualizarFoto] = useState("")
+        const [URL, actualizarURL] = useState("")
 
-    const manejarEnvio = (e) => {
+        const { RegistrarVideo } = props
         e.preventDefault()
         console.log("Manejar el envio")
         let datosAEnviar = {
             nombre: nombre,
-            categoria: categoria,
-            image:imagen,
+            año: año,
+            descripcion: descripcion,
+            foto: foto,
             URL: URL,
-            descripcion: descripcion
+
         }
-        RegistrarVideo(datosAEnviar)
+        console.log(datosAEnviar)
+        // RegistrarPersonaje(datosAEnviar)
+
 
     }
 
+
     return <section className="formulario">
 
-        <form onSubmit={manejarEnvio}>
+        <form>
             <h2>Rellena el formulario para agregar un video de la saga</h2>
-            <Campo
+            <input name="nombre"
                 titulo="Nombre del video"
                 placeholder="Ingresa el nombre del video"
                 required
-                valor={nombre}
-                actualizarValor={actualizarNombre}
             />
-            <Campo
+            <input name="descripcion"
                 titulo="Descripcion"
                 placeholder="Ingresa una sinopsis"
                 required
-                valor={descripcion}
-                actualizarValor={actualizarDescripcion}
-
             />
-            <Campo
+            <input name="imagen"
                 titulo="imagen"
                 placeholder="Ingresa el enlace de la imagen del video"
                 required
-                valor={imagen}
-                actualizarValor={actualizarImagen}
             />
-            <Campo
+            <input name="URL"
                 titulo="URL"
                 placeholder="Ingresa el enlace de la URL"
                 required
-                valor={URL}
-                actualizarValor={actualizarURL}
             />
+            
+            <ListaCategorias url={"/categorias/"} />
 
-            <ListaOpciones
-                valor={categoria}
-                actualizarcategoria={actualizarCategoria}
-                categorias={props.categorias}
-
-
-            />
-            <Boton texto="Agregar video" />
+            <button className="boton">AGREGAR VIDEO</button>
         </form>
     </section>
 }
+
 
 export default Formulario
