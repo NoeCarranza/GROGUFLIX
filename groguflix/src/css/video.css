@@ -12,3 +12,10 @@
 .poster{
     width: 500px;
 }
+
+.videosYoutube{
+    max-width: 1200px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    align-self: center ;
+}

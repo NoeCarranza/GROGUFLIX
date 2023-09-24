@@ -20,7 +20,7 @@ const Video = ({ url }) => {
 
     return (
 
-        <div style={{ backgroundColor: 'black' }}>
+        <div style={{ backgroundColor: 'black', paddingBottom:'40px'}}>
 
             <h2 style={{ fontSize: '3rem' }}>{videos.nombre}</h2>
             <h3>{videos.año}</h3>
@@ -35,18 +35,19 @@ const Video = ({ url }) => {
                 <h3 style={{ textAlign: 'justify', width: '350px' }}>{videos.descripcion}</h3>
                 <img className="poster" src={`${videos.imagen}`} style={{ width: '350px' }}></img>
             </div>
-            <iframe
-                width="853"
-                height="480"
-                src={`${videos.URL}`}
-                allow='autoplay; accelerometer;clipboard-write;encrypted-media'
-                allowFullScreen>
-            </iframe>
+
+            <iframe className="videosYoutube"
+                src={`https://www.youtube.com/embed/${videos.URL}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+            />
         </div>
     );
-    Video.propTypes = {
-        embedId: PropTypes.string.isRequired
-    };
 }
+Video.propTypes = {
+    embedId: PropTypes.string.isRequired
+};
 
 export default Video
