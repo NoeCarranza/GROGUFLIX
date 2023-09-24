@@ -7,6 +7,7 @@ import Otros from "./pages/otros";
 import Formulario from "./pages/Formulario";
 import Inicio from "./pages/Inicio";
 import Video from "./pages/video";
+import ListSeries from "./components/listSeries";
 import Notfound from "./pages/nofound";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -20,7 +21,8 @@ function App() {
         <Route path="/" element={<Inicio/>} />
         <Route path='/Home' element={<Home />} />
         <Route path='/videos' element={<Peliculas />} />
-        <Route path='/Series' element={<Series />} />
+        <Route path='/series' element={<Series />} />
+        <Route path='/series/:id' element={<ListSeries />} />
         <Route path='/Otros' element={<Otros />} />
         <Route path='/Formulario' element={<Formulario />} />
         <Route path='/videos/:id' element={<Video />} />

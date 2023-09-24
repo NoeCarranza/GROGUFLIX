@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/series.css';
-import { ListSeries } from "../components/listSeries";
+import ListSeries from "../components/listSeries";
 
 
 function Series() {

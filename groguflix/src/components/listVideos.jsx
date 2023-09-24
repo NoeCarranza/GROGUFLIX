@@ -1,10 +1,9 @@
 import { buscar } from "../API/api"
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import '../css/listVideos.css'
 
 const ListVideos = ({ url }) => {
-    const [videos, setVideos] = useState([])
+const [videos, setVideos] = useState([])
 
     useEffect(()=> {
         buscar(url, setVideos)
@@ -32,5 +31,11 @@ const ListVideos = ({ url }) => {
         </section>
     )
 }
+
+const listaSeries = () =>{
+
+
+}
+
 
 export default ListVideos

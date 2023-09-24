@@ -11,12 +11,12 @@ const ListSeries= ({ url }) => {
     }, [url])
 
     return(
-        <section className="videos-container">
+        <section>
             {
-                videos.filter((item)=> item.categoria==='peliculas').map( video =>{
+                videos.filter((item)=> item.categoria==='series').map( video =>{
                     const { id,nombre, año,duracion,imagen,categoria,URL} = video;
                     return(
-                        <Link to={`/videos/${id}`}style={{ textDecoration:'none'}} key={id}>
+                        <Link to={`/series/${id}`}style={{ textDecoration:'none'}} key={id}>
                             <div className="cajas">
                         <img src={`${imagen}`}></img>
                         <div>
