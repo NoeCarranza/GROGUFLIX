@@ -1,16 +1,16 @@
 {
     "categorias": [
         {
-            "id": "peliculas",
-            "categoria": "peliculas"
+            "id": "Peliculas",
+            "categoria": "Peliculas"
         },
         {
-            "id": "series",
-            "categoria": "series"
+            "id": "Series",
+            "categoria": "Series"
         },
         {
-            "id": "otros",
-            "categoria": "otros"
+            "id": "Otros",
+            "categoria": "Otros"
         }
     ],
     "videos": [

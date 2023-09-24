@@ -5,7 +5,6 @@ import ListaCategorias from "./listacategorias";
 
 const Formulario = (props) => {
 
-
     const GuardarDatos = (e) => {
         const [nombre, actualizarNombre] = useState("")
         const [año, actualizarAño] = useState("")
@@ -26,10 +25,7 @@ const Formulario = (props) => {
         }
         console.log(datosAEnviar)
         // RegistrarPersonaje(datosAEnviar)
-
-
     }
-
 
     return <section className="formulario">
 

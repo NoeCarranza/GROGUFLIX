@@ -1,6 +1,6 @@
 import { buscar } from "../API/api"
 import { useState, useEffect } from "react"
-import '../css/listVideos.css';
+import './campo.css';
 
 const ListaCategorias = ({ url }) => {
     const [categorias, setCategorias] = useState([])
@@ -11,18 +11,27 @@ const ListaCategorias = ({ url }) => {
 
     // console.table(videos);
 
+//     return (
+//             <select className="sel-cat">
+//                 <option> Selecionar categoria</option>
+//                 {
+//                     categorias.forEach(item => {
+//                         const { id, categoria } = item;
+//                         console.log(id + (" ") + categoria);
+//                     })
+//                 }
+//             </select>
+//     )
+// }
+
     return (
-        <select className="option-container">
-            <option value="" disabled defaultValue="" hidden> Selecionar categorias</option>
-            {
-                categorias.forEach(item => {
-                    const { id, categoria } = item;
-                    console.log(id+(" ") + categoria);
-                    {<option>Holi</option>}
-                })
-            }
+        <select className="sel-cat">
+            <option>Seleccionar categoría</option>
+            {categorias.map(item => (
+                <option key={item.id} value={item.id}>{item.categoria}</option>
+            ))}
         </select>
-    )
+    );
 }
 
-export default ListaCategorias
+export default ListaCategorias;
