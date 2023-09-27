@@ -19,7 +19,7 @@ const [videos, setVideos] = useState([])
                     return(
                         <Link to={`/videos/${id}`}style={{ textDecoration:'none'}} key={id}>
                             <div className="cajas">
-                        <img src={`${imagen}`}></img>
+                        <img src={`${imagen}`} className="imagenespeli"></img>
                         <div>
                         <h2>{nombre}</h2>
                         <h3>{año}</h3>

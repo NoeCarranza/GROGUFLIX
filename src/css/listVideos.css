@@ -10,9 +10,10 @@
 
 .cajas{
     background-color: rgba(0, 0, 0, 0.856);
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     box-shadow: 10px 10px 10px rgba(76, 76, 76, 0.526);
-    height: 850px;
+    height: 820px;
     margin: 20px;
 }
 
@@ -43,7 +44,8 @@
 }
 
 .imagenespeli{
-    width: 450px;
+    width: 100%;
+    max-width: 475px;
     height: 675px;
     align-self: center;
 }
